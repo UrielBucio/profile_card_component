@@ -95,3 +95,17 @@ hr {
 .attribution a { 
     color: var(--darkGrayishBlue); 
 }
+@media (min-width: 1024px) {
+    body {
+        background-position: top -350px left -350px, bottom -400px right -350px;
+    }
+}
+@media (min-width: 1140px) {
+    body {
+        background-position: top -450px left -350px, bottom -620px right -250px;
+        background-size: 1024px;
+    }
+    .main_container {
+        margin: 10.7rem 0;
+    }
+}
