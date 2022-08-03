@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+:root {
+    --darkCyan: hsl(185, 75%, 39%);
+    --veryDarkDesaturatedBlue: hsl(229, 23%, 23%);
+    --darkGrayishBlue: hsl(227, 10%, 46%);
+    --darkGray: hsl(0, 0%, 59%);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    align-items: center;
+    background-color: var(--darkCyan);
+    background-image: url(../src/img/bg-pattern-top.svg), url(../src/img/bg-pattern-bottom.svg);
+    background-position: top -350px left -350px, bottom -350px right -300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    justify-content: center;
+}
+.main_container {
+    background-color: white;
+    border-radius: 10px;
+    height: 380px;
+    margin: 10.7rem auto 2rem;
+    max-width: 330px;
+    overflow: hidden;
+    text-align: center;
+    width: 330px;
+}
+.image_container {
+    background:  url(../src/img/bg-pattern-card.svg) 
+    no-repeat center;
+    height: 140px;
+}
+.image {
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 5px;
+    position: relative;
+    bottom: -85px;
+}
+.secondary_container {
+    color: var(--veryDarkDesaturatedBlue);
+    margin-top: 75px;
+}
+h1 {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+}
+.secondary_container p {
+    color: var(--darkGrayishBlue);
+    display: inline;
+    margin-left: 5px;
+}
+span {
+    color: var(--darkGrayishBlue);
+    display: block;
+    font-size: 15px;
+    margin: 15px 0 30px;
+}
+hr {
+    border-top: 1px solid var(--darkGray);
+    opacity: 0.2;
+}
+.statistics_container {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.statistics_container h3 {
+    color: var(--veryDarkDesaturatedBlue);
+    font-size: 18px;
+    font-weight: 700;
+}
+.statistics_container p {
+    color: var(--darkGray);
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+.attribution { 
+    color: white;
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: var(--darkGrayishBlue); 
+}
